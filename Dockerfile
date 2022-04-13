@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/pringboot-images-new.jar pringboot-images-new.jar
-ENTRYPOINT["java" , "-jar", "/pringboot-images-new.jar"]
+ADD target/springboot-images-new.jar pringboot-images-new.jar
+ENTRYPOINT["java" , "-jar", "/springboot-images-new.jar"]
